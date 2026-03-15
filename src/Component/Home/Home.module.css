@@ -1,0 +1,58 @@
+.imghome
+{
+      width: 100vw;
+  min-height: 600px; 
+  background-image: url("../assets/images/bg_3.jpg.webp"); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.imghome{
+  margin-top:56px;
+}
+
+
+.testimonialsection {
+  position: relative; 
+  background-color: black;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+}
+
+
+.bgtext {
+    color: #fff;
+  font-size: 80px;
+letter-spacing: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  text-transform: uppercase;
+}
+
+.fgtext {
+   color: #585757;
+   font-weight: bolder;
+letter-spacing: 14px;
+   z-index: 1;
+  text-transform: lowercase;
+  position: absolute;
+  font-weight: bold;
+  
+}
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Bebas+Neue&family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&display=swap');

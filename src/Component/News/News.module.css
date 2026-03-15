@@ -1,0 +1,9 @@
+.newsContainer {
+  width: 100%;
+  min-height: 400px; 
+  background-image: url("../assets/images/back.jpg"); /* path النسبي من CSS file */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+}

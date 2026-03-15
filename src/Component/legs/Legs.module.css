@@ -1,0 +1,10 @@
+
+.ground {
+  width: 100%;
+  min-height: 400px; 
+  background-image: url("../assets/images/ground.jpg"); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+}
