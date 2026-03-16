@@ -14,7 +14,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="navbar navbar-light fixed-top">
+      <nav className="navbar navbar-light bg-white fixed-top">
         <div className="container-fluid">
 
           <Link className="navbar-brand" to="/">

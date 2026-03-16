@@ -25,7 +25,7 @@ function addToCart(product){
 
   return (
 
-     <div className="container-fluid bg-black">
+     <div className="container bg-black">
         <div className="row d-flex ">
           <div className={styles.back}>
             <div className="text-center pt-5">
