@@ -59,7 +59,7 @@ export default function Trainers() {
 
 <div className="col-lg-4 ">
 <Link to="/Traniner1" >
-<img src={tr1} className="w-100" />
+<img src={tr1} className="w-100" alt="fit"/>
 <h4 className="mt-1">RAYMOND ATKINS</h4>
 </Link>
 </div>
@@ -67,7 +67,7 @@ export default function Trainers() {
 <div className="col-lg-4">
   <Link to="/Traniner2">
   
-<img src={tr2} className="w-100" />
+<img src={tr2} className="w-100" alt="fit" />
 <h4 className="mt-1">TYRONE LOWE</h4>  
   </Link>
 
@@ -75,7 +75,7 @@ export default function Trainers() {
 <div className="col-lg-4">
 <Link to="/Traniner3">
 
-<img src={tr3} className="w-100" />
+<img src={tr3} className="w-100" alt="fit"/>
 <h4 className="mt-1">AZUL BALDWIN</h4>
 
 </Link>

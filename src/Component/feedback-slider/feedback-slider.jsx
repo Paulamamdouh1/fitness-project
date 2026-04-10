@@ -53,7 +53,7 @@ getfeedback();
   
 {Comments.slice(0,4).map((item,index) => <div key={item.id} className="text-center text-white"  >
 <div className=" d-flex justify-content-center align-items-center  py-4" >  
-  <img src={Slides [index % Slides.length]}  className="w-25  rounded-5" />
+  <img src={Slides [index % Slides.length]}  className="w-25  rounded-5" alt="fit"/>
 
   </div>  
 <div className=" bg-danger p-1 w-25  mx-auto "></div>

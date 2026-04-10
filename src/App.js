@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import './index.css';
 import AOS from "aos";
@@ -12,8 +11,6 @@ import Chest from "./Component/Chest/Chest.jsx";
 import Legs from "./Component/legs/Legs.jsx";
 import Products from "./Component/Products/Products.jsx";
 import Layout from "./Component/Layout/Layout.jsx";
-import Login from "./Component/Login/Login.jsx";
-import Register from "./Component/Register/Register.jsx";
 import Shoulder from "./Component/Shoulder/Shoulder.jsx";
 import Traniners from "./Component/Traniners/Traniners.jsx";
 import Triceps from "./Component/Triceps/Triceps.jsx";

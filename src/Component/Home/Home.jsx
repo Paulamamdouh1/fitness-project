@@ -99,7 +99,7 @@ const formik = useFormik({
 
 <div className=' d-flex  bg-black text-center  text-white-50'>
 <div className='col'>
-   <img src={flex} className="w-100"/>
+   <img src={flex} className="w-100" alt="fit"/>
     <span className=' bg-danger text-white ps-5 pe-5 pt-1 text-center rounded-1'>workout</span>
     <h2 className=''>HIGHLY MOTIVATING </h2>
     <p>start your healthy lifestyle today</p>
@@ -107,7 +107,7 @@ const formik = useFormik({
 </div>
 
   <div className='col'>
-     <img src={fle} className="w-100"/> 
+     <img src={fle} className="w-100" alt="fit" /> 
        <span className=' bg-danger text-white ps-5 pe-5 pt-1 text-center rounded-1'>workout</span>
 
     <h2 className='' >NEW GYM EXPERIENCE </h2>   

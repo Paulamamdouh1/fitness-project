@@ -16,7 +16,7 @@ if (!product) {
   
   <div className='col-md-4'>
 
-{ProductDetails.images.map((img)=> <img src={img} />)}
+{ProductDetails.images.map((img)=> <img src={img} alt="fit"/>)}
   </div>
   
 <div className='col-md-8'>
