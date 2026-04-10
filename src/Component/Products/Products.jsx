@@ -4,12 +4,14 @@ import styles from "./Products.module.css";
 import img2 from "../assets/images/product-4-600x673.png";
 import image1 from "../assets/images/product-1-600x673.png";
 import  back from "../assets/images/back.jpg"
+import { useNavigate } from 'react-router-dom';
 export default function Products() {
   const [products, setProducts] = useState([])
   const [cart, setCart] = useState([]);
+    const navigate = useNavigate(); // هنا تعريف navigate
   async function getProducts() {
-    let { data } = await axios.get("https://fakestoreapi.com/products");
-    setProducts(data)
+    let { data } = await axios.get("https://ecommerce.routemisr.com/api/v1/products");
+    setProducts(data.data)
   }
 
 
@@ -105,7 +107,7 @@ function addToCart(product){
                   </h4>
                   <span className="h6 text-white">{product.price} $</span>
                   <span className="h6 text-white">{product.description.slice(0, 60)}...</span>
-                  <button onClick={()=> addToCart(product)} className="btn  btn-outline-danger w-75 mt-3 text-white bg-dark">
+                  <button onClick={() => navigate(`/products/${product.id}`, { state: { product } })} className="btn  btn-outline-danger w-75 mt-3 text-white bg-dark">
                     Add to cart
                   </button>
                 </div>

@@ -40,3 +40,19 @@ html, body, #root {
   background-position: center center;
 
 }
+
+
+.product .btn
+{
+
+  transition: tranform 1s ,opacity 1s;
+  transform: translateY(100%);
+  opacity: 0;
+}
+
+.product:hover .btn
+{
+  opacity: 1;
+  transform: translateY(0%);
+  
+}

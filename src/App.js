@@ -30,6 +30,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 import { createBrowserRouter,  createHashRouter,  RouterProvider } from 'react-router-dom';
 import ProductsProvider from './Component/Context/Context.jsx';
 import { useEffect } from 'react';
+import ProductDetails from './Component/ProductDetails/ProductDetails.jsx';
 
 function App() {
   let router = createHashRouter ([
@@ -46,6 +47,7 @@ function App() {
         { path: "trainers", element: <Traniners /> },
         { path: "news", element:<News/>},
         { path: "products", element: <Products/> },
+        { path: "products/:id", element: <ProductDetails />},
         { path: "Traniner1", element: <Traniner1/> },
         { path: "Traniner2", element: <Traniner2/> },
         { path: "Traniner3", element: <Traniner3/> },
@@ -67,10 +69,7 @@ useEffect(()=>{
 
 return <>
 <ProductsProvider>
-<RouterProvider router={router}>
-  <Navbar/>
-  <Layout/>
-</RouterProvider>
+<RouterProvider router={router}></RouterProvider>
 </ProductsProvider>
 
   </>
